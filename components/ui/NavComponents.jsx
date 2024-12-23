@@ -85,9 +85,9 @@ export const ProductItem = ({
             <div>
                 <h4 className="text-xl font-bold mb-1 text-black dark:text-white relative group">
                     {title}
-                <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-black dark:bg-white transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-black dark:bg-white transition-all duration-500 group-hover:w-full"></span>
                 </h4>
-                <p className="text-neutral-700 text-sm max-w-[10rem] dark:text-neutral-300 hover:dark:opacity-80 hover:translate-x-2 hover:translate-y-1 hover:duration-500">
+                <p className="text-neutral-700 text-sm max-w-[10rem] dark:text-neutral-300 hover:opacity-80">
                     {description}
                 </p>
             </div>
