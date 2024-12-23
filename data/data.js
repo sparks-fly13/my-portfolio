@@ -1,7 +1,7 @@
 export const gridData = [
     {
       id: 1,
-      title: "*I will add stuffs about me here. Soon!*",
+      title: "*I will add stuff about me here. Soon!*",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -11,7 +11,7 @@ export const gridData = [
     },
     {
       id: 2,
-      title: "I am open to new opportnuties throughout the world.",
+      title: "I am open to new opportunities throughout the world.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",

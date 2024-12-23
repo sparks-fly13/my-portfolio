@@ -14,6 +14,7 @@ const Hero = () => {
                 <Spotlight className="top-28  left-80 h-[80vh] w-[50vw]" fill="purple" />
                 <Spotlight className="top-28  right-80 h-[80vh] w-[50vw]" fill="purple" />
                 <Spotlight className="top-72  right-80 h-[80vh] w-[50vw]" fill="blue" />
+                <Spotlight className="top-30  right-full h-[80vh] w-[50vw]" fill="white" />
             </div>
             <AuroraBackground>
                 <div
