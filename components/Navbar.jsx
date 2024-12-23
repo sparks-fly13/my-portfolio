@@ -62,7 +62,7 @@ function Navbar({ className }) {
             />
             <ProductItem
               title="UnityThreads"
-              href="https://github.com/sparks-fly13/wallmart.git"
+              href="https://wallmart-livid.vercel.app/"
               src={UnityThreads}
               description="An E-commerce platform for all your clothing needs."
               className="relative"
