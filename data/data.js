@@ -1,7 +1,7 @@
 export const gridData = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "*I will add stuffs about me here. Soon!*",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -11,7 +11,7 @@ export const gridData = [
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
+      title: "I am open to new opportnuties throughout the world.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -22,7 +22,7 @@ export const gridData = [
     {
       id: 3,
       title: "My tech stack",
-      description: "I constantly try to improve",
+      description: "Still adding on to it....",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -42,8 +42,8 @@ export const gridData = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
-      description: "The Inside Scoop",
+      title: "Currently trying to kickstart my career as a Full Stack Developer or an intern.",
+      description: "I hope my profile interests you.",
       className: "md:col-span-3 md:row-span-2 lg:col-span-3 lg:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -100,7 +100,7 @@ export const gridData = [
     },
     {
       id: 8,
-      name: "MySQL",
+      name: "My SQL",
       img: "/assets/mysql.svg",
     }
   ]
