@@ -2,11 +2,20 @@
 import React from 'react'
 import { BentoGrid, BentoGridItem } from './ui/BentoGrid'
 import { gridData } from '@/data/data'
+import { CardSpotlight } from './ui/CardSpotlight';
 
 const Grid = () => {
+  const handleMouseEnter= () => {
+    document.getElementById('bento').classList.remove('opacity-0');
+    document.getElementById('bento').classList.add('duration-200');
+  }
+  const handleMouseLeave = () => {
+    document.getElementById('bento').classList.add('opacity-0');
+  }
   return (
     <section id="about">
-        <BentoGrid>
+      <CardSpotlight>
+        <BentoGrid handleMouseEnter={handleMouseEnter} handleMouseLeave={handleMouseLeave}>
             {gridData.map((item, i) => (
                 <BentoGridItem
                     key={i}
@@ -22,6 +31,7 @@ const Grid = () => {
             ))
             }
         </BentoGrid>
+        </CardSpotlight>
     </section>
   )
 }
