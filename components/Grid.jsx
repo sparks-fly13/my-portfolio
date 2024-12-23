@@ -6,11 +6,11 @@ import { CardSpotlight } from './ui/CardSpotlight';
 
 const Grid = () => {
   const handleMouseEnter= () => {
-    document.getElementById('bento').classList.remove('opacity-0');
-    document.getElementById('bento').classList.add('duration-200');
+    document.getElementById('bento').classList.remove('lg:opacity-0');
+    document.getElementById('bento').classList.add('lg:duration-200');
   }
   const handleMouseLeave = () => {
-    document.getElementById('bento').classList.add('opacity-0');
+    document.getElementById('bento').classList.add('lg:opacity-0');
   }
   return (
     <section id="about">

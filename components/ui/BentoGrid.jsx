@@ -21,7 +21,7 @@ export const BentoGrid = ({
         (<div
             id='bento'
             className={cn(
-                "grid md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto opacity-0",
+                "grid md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto lg:opacity-0",
                 className
             )} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             {children}
