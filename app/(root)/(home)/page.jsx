@@ -13,7 +13,7 @@ const Home = () => {
         <div className='max-w-7xl w-full'>
             <TopNavbar />
             <Hero />
-            <h2 className='text-3xl text-center -mt-12 text-pretty mb-4 text-[#e2e2e2]'>Bring your cursor over here to discover more!</h2>
+            <h2 className='text-3xl text-center -mt-12 text-pretty mb-4 text-[#e2e2e2] max-lg:hidden'>Bring your cursor over here to discover more!</h2>
             <Grid />
             <Projects />
         </div>

@@ -75,7 +75,7 @@ export const ProductItem = ({
     src
 }) => {
     return (
-        (<Link href={href} target="_blank" className="flex space-x-2">
+        (<Link href={href} target={href.startsWith("http") ? "_blank" : "_self"} className="flex space-x-2">
             <Image
                 src={src}
                 width={120}

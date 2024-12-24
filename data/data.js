@@ -108,35 +108,63 @@ export const gridData = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/assets/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      title: "DevsDungeon",
+      des: "A secure platform for developers to ask and answer questions, use tags, and form a community, featuring debounced global and local search with AI tools for assistance. It also includes gamified features like reputation system and badges to make the users want to contribute more to the community.",
+      img: "/assets/DevsDungeon.svg",
+      iconLists: ["/assets/next.svg", "/assets/tail.svg", "/assets/ts.svg", "/assets/c.svg", "/assets/git.svg","/assets/mongodb.svg", "/assets/mongoose.svg"],
+      link: "https://devs-dungeon.vercel.app/",
+      linkGithub: "https://github.com/sparks-fly13/devsDungeon.git",
+      htmlId: "devs-dungeon"
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/assets/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      title: "CropStop",
+      des: "A a one-stop solution for all your agricultural needs. Our platform is designed to provide farmers with the tools and information they need to succeed in today's rapidly changing agricultural landscape.",
+      img: "/assets/Cropstop.svg",
+      iconLists: ["/assets/js.svg", "/assets/css.svg", "/assets/re.svg", "/assets/nodejs.svg", "/assets/flask.svg", "/assets/tensorflow.svg"],
+      link: "https://cropstopapp.netlify.app/",
+      linkGithub: "https://github.com/sparks-fly13/CropStopWebApp.git",
+      htmlId: "crop-stop"
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/assets/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      title: "Youtech",
+      des: "A platform for YouTubers to approve/reject edited videos and automate uploads with real-time notifications. Offers centralized video uploads, approval workflows, and secure, automated publishing, even in low-connectivity areas.",
+      img: "/assets/youtech.svg",
+      iconLists: ["/assets/re.svg", "/assets/nodejs.svg", "/assets/expressjs.svg", "/assets/mongodb.svg", "/assets/mongoose.svg", "/assets/aws.svg", "/assets/jwt.svg"],
+      link: "",
+      linkGithub: "https://github.com/sparks-fly13/youtech.git",
+      htmlId: "youtech"
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/assets/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      title: "UnityThreads",
+      des: "The frontend of an e-fashion web application created. It comprises of an admin page and user pages with multi-page routing using React-router and context routing using Redux store.",
+      img: "/assets/UnityThreads.svg",
+      iconLists: ["/assets/re.svg", "/assets/css.svg", "/assets/tail.svg", "/assets/js.svg", "/assets/redux.svg"],
+      link: "https://wallmart-livid.vercel.app/",
+      linkGithub: "https://github.com/sparks-fly13/wallmart.git",
+      htmlId: "unity-threads"
+    },
+    {
+      id: 5,
+      title: "DiagnoSys",
+      des: "An E-diagnostic web application that lets the user book appointments, view reports, and get prescriptions online. It also includes Razerpay API for payment model and an admin panel for the hospital staff.",  
+      img: "/assets/diagnosys.svg",
+      iconLists: ["/assets/js.svg", "/assets/css.svg", "/assets/ejs.svg", "/assets/html.svg", "/assets/flask.svg"],
+      link: "",
+      linkGithub: "https://drive.google.com/drive/folders/1kSaEZ-HQ_69LdheuTp_4q8AujoTkpnr3?usp=sharing",
+      htmlId: "diagnosys"
+    },
+    {
+      id: 6,
+      title: "Car Management App",
+      des: "A managment app created via Redux and React. It includes features like adding, deleting, and updating cars, and also includes a search bar to search for cars.",
+      img: "/assets/car-manag.svg",
+      iconLists: ["/assets/re.svg", "/assets/redux.svg", "/assets/css.svg", "/assets/js.svg"],
+      link: "https://gleaming-choux-83561f.netlify.app/",
+      linkGithub: "https://github.com/sparks-fly13/car-managment-app.git",
+      htmlId: "car-manag"
     },
   ];
   

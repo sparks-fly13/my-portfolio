@@ -9,7 +9,7 @@ import UnityThreads from "../public/assets/UnityThreads.jpeg";
 
 export function TopNavbar() {
   return (
-    <div className="relative w-full flex items-center justify-center">
+    <div className="relative w-full flex items-center justify-center z-[70]">
       <Navbar className="top-2" />
     </div>
   );
@@ -41,28 +41,28 @@ function Navbar({ className }) {
           <div className="text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
               title="DevsDungeon"
-              href="https://devs-dungeon.vercel.app/"
+              href="#devs-dungeon"
               src={DevsDungeon}
               description="A community-based forum for developers integrated with AI."
               className="relative"
             />
             <ProductItem
               title="CropStop"
-              href="https://cropstopapp.netlify.app/"
+              href="#crop-stop"
               src={CropStop}
               description="A one-stop solution for all your agricultural needs."
               className="relative"
             />
             <ProductItem
               title="Youtech"
-              href="https://github.com/sparks-fly13/youtech.git"
+              href="#youtech"
               src={Youtech}
               description="Platform to ease uploads for youtubers and their editors."
               className="relative"
             />
             <ProductItem
               title="UnityThreads"
-              href="https://wallmart-livid.vercel.app/"
+              href="#unity-threads"
               src={UnityThreads}
               description="An E-commerce platform for all your clothing needs."
               className="relative"
