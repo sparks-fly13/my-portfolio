@@ -159,7 +159,7 @@ export const gridData = [
     {
       id: 6,
       title: "Car Management App",
-      des: "A managment app created via Redux and React. It includes features like adding, deleting, and updating cars, and also includes a search bar to search for cars.",
+      des: "A managment app created via React.js and Redux toolkit. It includes features like adding, deleting, and updating cars, and also includes a search bar to search for cars.",
       img: "/assets/car-manag.svg",
       iconLists: ["/assets/re.svg", "/assets/redux.svg", "/assets/css.svg", "/assets/js.svg"],
       link: "https://gleaming-choux-83561f.netlify.app/",
