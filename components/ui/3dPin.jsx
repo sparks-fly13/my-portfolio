@@ -3,13 +3,11 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import Image from "next/image";
 import { IoLogoGithub } from "react-icons/io5";
 import { CgWebsite } from "react-icons/cg";
 
 export const PinContainer = ({
   children,
-  title,
   href,
   github,
   className,

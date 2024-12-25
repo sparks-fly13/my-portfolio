@@ -29,10 +29,10 @@ function Navbar({ className }) {
             <HoveredLink href="#tech-stack" className="relative">
               Tech Stack
             </HoveredLink>
-            <HoveredLink href="#Education" className="relative">
+            <HoveredLink href="#education" className="relative">
               My Education
             </HoveredLink>
-            <HoveredLink href="#Contact" className="relative">
+            <HoveredLink href="#contact" className="relative">
               Contact Me
             </HoveredLink>
           </div>

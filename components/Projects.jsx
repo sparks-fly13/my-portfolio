@@ -27,7 +27,9 @@ const Projects = () => {
                   <div key={i} className='border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex items-center justify-center' style={{
                     transform: `translateX(-${5*i*2}px)`
                   }}>
-                    <Image src={icon} alt={icon} height={0} width={0} className='w-full h-full p-2' />
+                    <Image src={icon} alt={icon} height={0} width={0} className='w-full h-full p-2 rounded-full' style={{
+                      background: `${icon==='/assets/expressjs.svg' || icon==='/assets/mongoose.svg' || icon==='/assets/jwt.svg' || icon==='/assets/aws.svg' ? 'white' : ''}`
+                    }} />
                   </div>
                 ))}
               </div>

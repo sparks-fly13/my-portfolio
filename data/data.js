@@ -1,17 +1,17 @@
 export const gridData = [
     {
       id: 1,
-      title: "*I will add stuff about me here. Soon!*",
-      description: "",
+      title: "A bit about me",
+      description: "I am Pulkit Sinha, a final year undergrad in Information Technology from IIIT Bhubaneswar. I am reallyyyy interested in the field of Software Development, especially Web. I have a solid foundation in web technologies such as ReactJS, Next.js, Redux etc. My knowledge extends to backend technologies like Express.js, Node.js, FastAPI, ASP.NET and databases such as MongoDB and MySQL along with ODMs like Mongoose. I have also worked with cloud technologies like AWS. I'm an ardent space enthusiast and I love learning about various other topics as much as I can in general as well. Oh, and I also write poems!",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/assets/b1.svg",
+      img: "",
       spareImg: "",
     },
     {
       id: 2,
-      title: "I am open to new opportunities throughout the world.",
+      title: "I love gaining new experiences, anytime, anywhere.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -66,7 +66,7 @@ export const gridData = [
     {
       id: 1,
       name: "React.js",
-      img: "/assets/react.svg",
+      img: "/assets/re.svg",
     },
     {
       id: 2,
@@ -76,12 +76,12 @@ export const gridData = [
     {
       id: 3,
       name: "Node.js",
-      img: "/assets/node.svg",
+      img: "/assets/nodejs.svg",
     },
     {
       id: 4,
       name: "Express.js",
-      img: "/assets/express.svg",
+      img: "/assets/expressjs.svg",
     },
     {
       id: 5,
@@ -91,7 +91,7 @@ export const gridData = [
     {
       id: 6,
       name: "MongoDB",
-      img: "/assets/mongo.svg",
+      img: "/assets/mongodb.svg",
     },
     {
       id: 7,
@@ -102,6 +102,71 @@ export const gridData = [
       id: 8,
       name: "My SQL",
       img: "/assets/mysql.svg",
+    },
+    {
+      id: 9,
+      name: "Mongoose",
+      img: "/assets/mongoose.svg",
+    },
+    {
+      id: 10,
+      name: "Tailwind CSS",
+      img: "/assets/tail.svg",
+    },
+    {
+      id: 11,
+      name: "Redux",
+      img: "/assets/redux.svg",
+    },
+    {
+      id: 12,
+      name: "Javascript",
+      img: "/assets/js.svg",
+    },
+    {
+      id: 13,
+      name: "C++",
+      img: "/assets/cpp.svg",
+    },
+    {
+      id: 14,
+      name: "Python",
+      img: "/assets/python.svg",
+    },
+    {
+      id: 15,
+      name: "HTML",
+      img: "/assets/html.svg",
+    },
+    {
+      id: 16,
+      name: "CSS",
+      img: "/assets/css.svg",
+    },
+    {
+      id: 17,
+      name: "Typescript",
+      img: "/assets/ts.svg",
+    },
+    {
+      id: 18,
+      name: "C",
+      img: "/assets/cLang.svg",
+    },
+    {
+      id: 19,
+      name: "C#",
+      img: "/assets/csharp.svg",
+    },
+    {
+      id: 20,
+      name: "AWS",
+      img: "/assets/aws.svg",
+    },
+    {
+      id: 21,
+      name: "Git",
+      img: "/assets/git.svg",
     }
   ]
   
@@ -168,114 +233,20 @@ export const gridData = [
     },
   ];
   
-  export const testimonials = [
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-  ];
-  
-  export const companies = [
-    {
-      id: 1,
-      name: "cloudinary",
-      img: "/assets/cloud.svg",
-      nameImg: "/assets/cloudName.svg",
-    },
-    {
-      id: 2,
-      name: "appwrite",
-      img: "/assets/app.svg",
-      nameImg: "/assets/appName.svg",
-    },
-    {
-      id: 3,
-      name: "HOSTINGER",
-      img: "/assets/host.svg",
-      nameImg: "/assets/hostName.svg",
-    },
-    {
-      id: 4,
-      name: "stream",
-      img: "/assets/s.svg",
-      nameImg: "/assets/streamName.svg",
-    },
-    {
-      id: 5,
-      name: "docker.",
-      img: "/assets/dock.svg",
-      nameImg: "/assets/dockerName.svg",
-    },
-  ];
-  
-  export const workExperience = [
-    {
-      id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-      className: "md:col-span-2",
-      thumbnail: "/assets/exp1.svg",
-    },
-    {
-      id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/assets/exp2.svg",
-    },
-    {
-      id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/assets/exp3.svg",
-    },
-    {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
-      className: "md:col-span-2",
-      thumbnail: "/assets/exp4.svg",
-    },
-  ];
-  
   export const socialMedia = [
     {
       id: 1,
       img: "/assets/git.svg",
+      link: "https://github.com/sparks-fly13/"
     },
     {
       id: 2,
       img: "/assets/twit.svg",
+      link: "https://x.com/akame13__"
     },
     {
       id: 3,
       img: "/assets/link.svg",
+      link: "https://www.linkedin.com/in/pulkitsinha007/"
     },
   ];
