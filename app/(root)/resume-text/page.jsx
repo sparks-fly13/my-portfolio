@@ -1,11 +1,10 @@
 "use client";
 import React from 'react'
-import { pdfjs } from 'react-pdf'
 
 const TextResume = () => {
   return (
     <div>
-      <h1>Resume</h1>
+      <h1>Text Resume</h1>
     </div>
   )
 }

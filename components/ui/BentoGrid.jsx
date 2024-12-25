@@ -10,6 +10,7 @@ import animationData from "@/data/yayy.json";
 import { useState } from "react";
 import BorderMagicBtn from "./BorderMagicBtn";
 import {IoCopyOutline} from 'react-icons/io5';
+import Pulkit from '../../public/assets/Pulkit.png';
 
 export const BentoGrid = ({
     className,
@@ -74,7 +75,7 @@ export const BentoGridItem = ({
                     </div>
                     {id === 1 && (
                         <div className="absolute -mb-6 max-lg:hidden right-10">
-                            <Image src="/assets/pulkit.png" alt="pulkit" width={70} height={70} />
+                            <Image src={Pulkit} alt="pulkit" width={70} height={70} />
                         </div>
                     )}
                     {id === 2 && <GlobeDemo />}
