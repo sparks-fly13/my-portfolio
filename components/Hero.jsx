@@ -38,7 +38,7 @@ const Hero = () => {
                         <p className='text-center text-blue-100 md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
                             I'm <strong><u>Pulkit Sinha</u></strong>, a Full Stack Developer!
                         </p>
-                        <a href='#'><BorderMagicBtn title="About Me" position="left" icon={<CgProfile />} otherClasses="justify-center" /></a>
+                        <a href='#education'><BorderMagicBtn title="About Me" position="left" icon={<CgProfile />} otherClasses="justify-center" /></a>
                     </div>
                 </div>
             </AuroraBackground>
