@@ -71,10 +71,10 @@ function Navbar({ className }) {
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Resume">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/resume-photo" className="relative">
+            <HoveredLink href="/resume-photo" className="relative" target="_blank">
               Photo Resume
             </HoveredLink>
-            <HoveredLink href="/resume-text" className="relative">
+            <HoveredLink href="/resume-text" className="relative" target="_blank">
               Text Resume
             </HoveredLink>
           </div>

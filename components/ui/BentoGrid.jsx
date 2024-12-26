@@ -9,7 +9,7 @@ import Lottie from "react-lottie";
 import animationData from "@/data/yayy.json";
 import { useState } from "react";
 import BorderMagicBtn from "./BorderMagicBtn";
-import {IoCopyOutline} from 'react-icons/io5';
+import { IoCopyOutline } from 'react-icons/io5';
 import Pulkit from '../../public/assets/Pulkit.png';
 
 export const BentoGrid = ({
@@ -63,29 +63,42 @@ export const BentoGridItem = ({
                         <Image src={spareImg} alt={spareImg} className='object-cover object-center w-full h-full' width={100} height={100} />
                     )}
                 </div>
-                {(id === 6 || id==1) && (
+                {(id === 6 || id == 1) && (
                     <BackgroundGradientAnimation />
                 )}
                 <div className={cn(titleClassName, 'group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10')}>
-                    <div className={`font-sans ${id===1 ? 'font-normal' : 'font-extralight'} ${id===1 ? 'text-white' :'text-[#c1c2d3]'} text-sm md:text-xs lg:text-base z-10`}>
-                        {description}
-                    </div>
-                    <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
-                        {title}
-                    </div>
+                    {id === 1 ? (
+                        <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
+                            {title}
+                        </div>
+                    ) : (
+                        <div className='font-sans font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10'>
+                            {description}
+                        </div>
+                    )}
+
+                    {id === 1 ? (
+                        <div className='font-sans font-normal text-white text-sm md:text-xs lg:text-base z-10'>
+                            {description}
+                        </div>
+                    ) : (
+                        <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
+                            {title}
+                        </div>
+                    )}
                     {id === 1 && (
-                        <div className="absolute -mb-6 max-lg:hidden right-10">
+                        <div className="absolute mb-20 max-lg:hidden right-10">
                             <Image src={Pulkit} alt="pulkit" width={70} height={70} />
                         </div>
                     )}
                     {id === 2 && <GlobeDemo />}
                     {id === 3 && (
                         <div className="grid grid-cols-2 gap-1 lg:gap-2 w-fit absolute -right-3 lg:-right-2">
-                                {techStack.slice(0,8).map((tech) => (
-                                    <span key={tech.id} className="py-1 lg:py-2 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e]">
-                                        {tech.name}
-                                    </span>
-                                ))}
+                            {techStack.slice(0, 8).map((tech) => (
+                                <span key={tech.id} className="py-1 lg:py-2 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e]">
+                                    {tech.name}
+                                </span>
+                            ))}
                         </div>
                     )}
                     {id === 6 && (

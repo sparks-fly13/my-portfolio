@@ -2,7 +2,7 @@ export const gridData = [
     {
       id: 1,
       title: "A bit about me",
-      description: "I am Pulkit Sinha, a final year undergrad in Information Technology from IIIT Bhubaneswar. I am reallyyyy interested in the field of Software Development, especially Web. I have a solid foundation in web technologies such as ReactJS, Next.js, Redux etc. My knowledge extends to backend technologies like Express.js, Node.js, FastAPI, ASP.NET and databases such as MongoDB and MySQL along with ODMs like Mongoose. I have also worked with cloud technologies like AWS. I'm an ardent space enthusiast and I love learning about various other topics as much as I can in general as well. Oh, and I also write poems!",
+      description: "I am Pulkit Sinha, a final year undergrad in Information Technology from IIIT Bhubaneswar. I am reallyyyy interested in the field of Software Development, especially Web. I'm an ardent space enthusiast and I love learning about various other topics as much as I can in general as well. Oh, and I also write poems!",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
@@ -42,7 +42,7 @@ export const gridData = [
   
     {
       id: 5,
-      title: "Currently trying to kickstart my career as a Full Stack Developer or an intern.",
+      title: "Currently trying to kickstart my career as a Software Engineer.",
       description: "I hope my profile interests you.",
       className: "md:col-span-3 md:row-span-2 lg:col-span-3 lg:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",

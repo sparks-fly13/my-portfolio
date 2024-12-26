@@ -1,11 +1,9 @@
-"use client";
+import { ResumeText } from '@/components/Resume'
 import React from 'react'
 
 const TextResume = () => {
   return (
-    <div>
-      <h1>Text Resume</h1>
-    </div>
+    <ResumeText />
   )
 }
 

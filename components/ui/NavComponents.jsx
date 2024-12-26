@@ -97,10 +97,12 @@ export const ProductItem = ({
 
 export const HoveredLink = ({
     children,
+    target,
     ...rest
 }) => {
     return (
         (<Link
+            target={target ? target : "_self"}
             {...rest}
             className="text-neutral-700 dark:text-neutral-200 hover:text-black hover:translate-x-2 hover:duration-200 hover:ease-out">
             {children}
