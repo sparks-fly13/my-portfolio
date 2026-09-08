@@ -32,11 +32,11 @@ const Hero = () => {
                 >
                     <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
                         <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
-                            Hi! Welcome fellow developers (and non-developers :p).
+                            Hi! Welcome fellow curiosity rovers :p.
                         </h2>
                         <TextGenerateEffect className="text-center text-[40px] md:text-5xl lg:text-6xl" words="Scroll down to view different sections of my Portfolio." />
                         <p className='text-center text-blue-100 md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                            I'm <strong><u>Pulkit Sinha</u></strong>, a Full Stack Developer!
+                            I'm <strong><u>Pulkit Sinha</u></strong>, an ML researcher and Full Stack Developer!
                         </p>
                         <a href='#education'><BorderMagicBtn title="About Me" position="left" icon={<CgProfile />} otherClasses="justify-center" /></a>
                     </div>

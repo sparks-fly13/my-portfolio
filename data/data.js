@@ -2,7 +2,7 @@ export const gridData = [
     {
       id: 1,
       title: "A bit about me",
-      description: "I am Pulkit Sinha, a final year undergrad in Information Technology from IIIT Bhubaneswar. I am reallyyyy interested in the field of Software Development, especially Web. I'm an ardent space enthusiast and I love learning about various other topics as much as I can in general as well. Oh, and I also write poems!",
+      description: "I am Pulkit Sinha, currently JRF at IIT Delhi, ex-software engineer at Kfintech and an Information Technology graduate from IIIT Bhubaneswar. I am reallyyyy interested in the field of ML research and the underlying ideas behind it along with Software Development, especially Web. I'm an ardent space enthusiast and I love learning about various other topics as much as I can in general as well. Oh, and I also write poems!",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
@@ -31,7 +31,7 @@ export const gridData = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
+      title: "Researcher and Tech enthusiast with a passion for knowledge and development.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -42,7 +42,7 @@ export const gridData = [
   
     {
       id: 5,
-      title: "Currently trying to kickstart my career as a Software Engineer.",
+      title: "Currently trying to augment my career with experience in ML research.",
       description: "I hope my profile interests you.",
       className: "md:col-span-3 md:row-span-2 lg:col-span-3 lg:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -95,8 +95,8 @@ export const gridData = [
     },
     {
       id: 7,
-      name: "ASP.NET",
-      img: "/assets/asp.svg",
+      name: "Pytorch",
+      img: "/assets/pytorch.svg",
     },
     {
       id: 8,
